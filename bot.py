@@ -136,6 +136,5 @@ async def send_all(ctx, member: discord.Member):
 
 	await member.send(f'{member.name} глянь новый мост, от {ctx.author.name}')
 
-token =('NjgxMDk4Nzg1NTA5ODY3NTQ1.XlJgtg.0GnFqlvl5eT-lGSrV31ne1JmIw0')
 
 client.run ( token )
